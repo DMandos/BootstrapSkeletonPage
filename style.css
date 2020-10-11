@@ -1,0 +1,174 @@
+body {
+  font-family: "Montserrat";
+}
+
+h1 {
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+h2 {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+#title {
+  background-color: #243ca2;
+  color: #fff;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-light"
+}
+
+/* Download Buttons */
+.download-button {
+  margin: 5% 3% 3%;
+}
+
+/* Title Image */
+.banner {
+  border-radius: 50%;
+  width: 60%;
+  transform: rotate(11deg);
+  margin-left: 7.5rem;
+}
+
+/* Features */
+.color-icons {
+  color: cornflowerblue;
+  font-size: 5rem;
+  margin-bottom: 2rem;
+}
+
+.color-icons:hover {
+  color: #243ca2;
+}
+
+.spaces {
+  text-align: center;
+  padding: 5%;
+}
+
+#features {
+  padding: 7% 15%;
+}
+
+/* Testimonial Section */
+#testimonials {
+  background-color: #243ca2;
+  color: white;
+  text-align: center;
+}
+
+.users {
+  width: 9rem;
+}
+
+.carousel-item {
+  padding: 5% 15%;
+  height: 35rem;
+}
+
+/* Pricing */
+#pricing {
+  padding: 6.25rem;
+  text-align: center;
+}
+
+.price-col {
+  padding-top: 3% 2%;
+}
+
+.price-imgs {
+  width: 35%;
+}
+
+#download {
+  padding: 5%;
+  text-align: center;
+  background-color: #243ca2;
+  color: white;
+}
+
+#footer {
+  padding: 5% 15% 2%;
+  text-align: center;
+}
+
+.footer-twitter {
+  margin: 0.5rem;
+  color: #8f8f8f;
+  :
+}
+
+.footer-face {
+  margin: 0.5rem;
+  color: #8f8f8f;
+}
+
+.footer-insta {
+  margin: 0.5rem;
+  color: #8f8f8f;
+}
+
+.footer-twitter:hover {
+  color: #08a0e9;
+}
+
+.footer-face:hover {
+  color: #3b5998;
+}
+
+.footer-insta:hover {
+  color: #dd2a7b;
+}
+
+/* Make carousel text responsive */
+@media (max-width: 700px) {
+  .price-imgs {
+    width:90%;
+  }
+
+  .media {
+    font-size: 2.25rem;
+  }
+
+  #title {
+    text-align: center;
+  }
+}

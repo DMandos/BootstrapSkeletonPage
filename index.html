@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="D N Mandos">
+  <meta charset="utf-8">
+  <title>Simple Product Page With Bootstrap</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;1,900&family=Ubuntu&display=swap" rel="stylesheet">
+  <!-- CSS stylesheets -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <!-- Font awesome for apple/google icons -->
+  <script defer src="all.js"></script>
+  <!-- Bootstrap scripts -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  <!-- Favivon -->
+  <link rel="shortcut icon" href="images/favicon.ico">
+</head>
+
+<body>
+  <section id="title">
+    <!-- Nav Bar -->
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="">Product - Name</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="https://dmandos.github.io/">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing">Pricelist</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#download">Download</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- Title -->
+      <div class="row">
+        <div class='col-lg-6'>
+          <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
+          <button type="button" class="btn btn-lg btn-dark download-button" data-toggle="modal" data-target="#dialogModal"><i class="fab fa-apple"></i> Download</button>
+          <button type="button" class="btn btn-lg btn-outline-light download-button" data-toggle="modal" data-target="#dialogModal"><i class="fab fa-google-play"></i> Download</button>
+        </div>
+        <div class='col-lg-6'>
+          <img src="images/pr0file.png" alt="product logo picture!" class="banner">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Features -->
+  <section id="features">
+    <div class="row">
+      <div class="col-lg-4 spaces">
+        <i class="fas fa-layer-group color-icons"></i>
+        <h3>Lorem ipsum.</h3>
+        <p>Iincididunt ut labore et dolore.</p>
+      </div>
+      <div class="col-lg-4 spaces">
+        <i class="fab fa-accusoft color-icons"></i>
+        <h3>Duis aute irure.</h3>
+        <p>Excepteur sint occaecat cupidatat.</p>
+      </div>
+      <div class="col-lg-4 spaces">
+        <i class="fas fa-draw-polygon color-icons"></i>
+        <h3>Ut enim ad.</h3>
+        <p>Dolor in reprehenderit in voluptate.</p>
+      </div>
+    </div>
+  </section>
+<!-- Testimonials -->
+  <section id="testimonials">
+    <div id="carouselControls" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner" role="listbox">
+        <!--listbox for e-readers-->
+        <div class="carousel-item active">
+          <h2 class="media">Lorem ipsum dolor amet, consectetur adipiscing elit. Nulla nec ultrices.</h2>
+          <img src="images/User1.png" alt="random user" class="users">
+          <em>User from GR</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="media">Suspendisse a aliquam enim. Morbi dui ipsum.</h2>
+          <img class="users" src="images/User2.png" alt="random user">
+          <em>User from AU</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="media">Praesent tempor tortor nec mauris finibus efficitur.</h2>
+          <img class="users" src="images/User3.png" alt="random user">
+          <em>User from GB</em>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <!--aria-hidden hidden from the reader for ΑΜΕΑ-->
+        <span class="sr-only">Previous</span>
+        <!--e-reader ΑΜΕΑ-->
+      </a>
+      <a class="carousel-control-next" href="#carouselControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </section>
+  <!-- Pricing -->
+  <section id="pricing">
+    <h2>Lorem ipsum dolor sit amet</h2>
+    <p>Nullam sodales interdum mauris ac tristique</p>
+    <div class="row">
+      <div class="price-col col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <img class="card-img-top price-imgs" src="images/house1.png" alt="Card image cap">
+          </div>
+          <div class="card-body">
+            <h2>FREE!</h2>
+            <p>list of text describing</p>
+            <p>features of service</p>
+            <br>
+            <button type="button" class="btn btn-lg btn-block btn-outline-dark" data-toggle="modal" data-target="#dialogModal">Download Now!</button>
+          </div>
+        </div>
+      </div>
+      <div class=" price-col col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <img class="card-img-top price-imgs" src="images/house2.png" alt="Card image cap">
+          </div>
+          <div class="card-body">
+            <h2>19€ / month</h2>
+            <p>Unlimited Features</p>
+            <p>Unlimited More Features</p>
+            <br> <br> <br>
+            <button type="button" class="btn btn-lg btn-block btn-dark" data-toggle="modal" data-target="#dialogModal">Download Now!</button>
+          </div>
+        </div>
+      </div>
+      <div class=" price-col col-lg-4">
+        <div class="card">
+          <div class="card-header">
+            <img class="card-img-top price-imgs" src="images/house.png" alt="Card image cap">
+          </div>
+          <div class="card-body">
+            <h2>35€ / month</h2>
+            <p>Another list of text describing features</p>
+            <p>Unlimited Features</p>
+            <p>Unlimited More Features</p>
+            <p>Unlimited Even More Features</p>
+            <br>
+            <button type="button" class="btn btn-lg btn-block btn-dark" data-toggle="modal" data-target="#dialogModal">Download Now!</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Download -->
+  <section id="download">
+    <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit!</h3>
+    <button type="button" class="btn btn-lg btn-dark download-button" data-toggle="modal" data-target="#dialogModal"><i class="fab fa-apple"></i> Download</button>
+    <button type="button" class="btn btn-lg btn-outline-light download-button" data-toggle="modal" data-target="#dialogModal"><i class="fab fa-google-play"></i>Download</button>
+  </section>
+  <!-- Footer -->
+  <footer id="footer">
+    <a href="https://twitter.com/"><i class="fab fa-twitter footer-twitter"></i></a>
+    <a href="https://www.facebook.com/"><i class="fab fa-facebook-f footer-face"></i></a>
+    <a href="https://www.instagram.com/"><i class="fab fa-instagram footer-insta"></i></a>
+    <p><a href="https://dmandos.github.io/" style="color:#8f8f8f;">© 2020 D N Mandos</a></p>
+  </footer>
+<!-- Modal -->
+  <div class="modal fade" id="dialogModal" role="dialog">
+    <div class="modal-dialog">
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+          <p>Download dialog box.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
